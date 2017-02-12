@@ -1,5 +1,3 @@
-'use strict'
-
 describe("Data types tests ", function() {
   describe("Case for some falsy values", function() {
 
@@ -67,16 +65,12 @@ describe("Data types tests ", function() {
     it("should return `undefined` for `[]`", function() {
       expect(dataTypes([])).not.toBeDefined();
     });
-
     it("should return `undefined` for `[4, 9]`", function() {
       expect(dataTypes([4, 9])).not.toBeDefined();
     });
-
   });
 
-
   describe("Case for functions", function() {
-
     it("should call the `callback` function with argument true, and return `called callback`", function() {
       var callback = function(arg) {
         expect(arg).toBeTruthy();
@@ -86,6 +80,6 @@ describe("Data types tests ", function() {
       };
       expect(dataTypes(callback)).toBe('called callback');
     });
-
   });
 });
+
