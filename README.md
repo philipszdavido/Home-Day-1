@@ -2,13 +2,12 @@
 
 My Home Day 1 assignments from Andela Bootcamp Cycle XIX
 
-Project Details:
-
-Language: JavaScript
-TDD tool: Jasmine
-Author: Chidume Nnamdi
-Version: 0.0.1
-License: MIT
+Project Details:<b>
+<p>Language: JavaScript</p>
+<p>TDD tool: Jasmine</p>
+<p>Author: Chidume Nnamdi</p>
+<p>Version: 0.0.1</p>
+<p>License: MIT</p></b>
 Contains:
 
 dataTypes Lab test spec and program
@@ -17,11 +16,11 @@ OOP (Car Class) spec and program
 
 These programs follows Test-Driven Development (TDD) process and the tool used is Jasmine.
 
-Program files
+Program files<b>
 DataTypes
 getPrimes
 OOP (Car Class)
-
+OOP (Phone Class)</b>
 The program files are contained in these folders: dataTypes, getPrimes OOP (Car Class) are contained in the spec folder inside each program folder.
 
 How to run tests
