@@ -28,7 +28,7 @@ These programs follows Test-Driven Development (TDD) process and the tool used i
 <li>OOP (Car Class)</li>
 <li>OOP (Phone Class)</li>
 </ul>
-The program files are contained in these folders: dataTypes, getPrimes OOP (Car Class) are contained in the spec folder inside each program folder.
+The program files are contained in these folders: <code>dataTypes</code>,<code> getPrimes</code>,<code> OOP (Car Class)</code>,<code> OOP (Phone Class)</code> are contained in the spec folder inside each program folder.
 
 <b>How to run tests</b>
 <ul>
@@ -37,6 +37,6 @@ The program files are contained in these folders: dataTypes, getPrimes OOP (Car 
 <li>Run index.html</li>
 </ul>
 
-<code>Note:</code>
+<code><b>Note:</b></code>
 
 These programs have no package dependecies, so fell free to clone it and run the index.html file in each project folder to initialize the Jasmine tests.
