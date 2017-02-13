@@ -27,6 +27,15 @@ function dataTypes(input) {
         return "more than 100";
       }
   }
+    else if (typeof(input) === 'object') {
+    var listOfKeys = [];
+    for (var i in input) {
+      listOfKeys.push(i);
+    }
+
+    return listOfKeys;
+  }    
+    
   //checks if the parameter input is a function object
   else if (typeof(input) === "function") {
     return input(75);
