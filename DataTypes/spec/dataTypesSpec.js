@@ -81,15 +81,6 @@ describe("Data types tests ", function() {
       expect(dataTypes(callback)).toBe('called callback');
     });
   });
-  describe("Case for Objects. Return an array containing the keys of object.", function() {
-
-    it("should return ['chidume', 'nnamdi', 'david'] for {chidume: 'male', nnamdi: 'female', david: undefined }", function() {
-      expect(dataTypes({ chidume: 'male',nnamdi: 'female', david: undefined })).toEqual(['chidume', 'nnamdi', 'david']);
-    });
-
-    it("should return ['milk', 'chocolate', 'chicken'] for { milk: 4, chocolate: 3, chicken: 7 }", function() {
-      expect(dataTypes({ milk: 4, chocolate: 3, chicken: 7 })).toEqual(['milk', 'chocolate', 'chicken']);
-    });
-  });
+  
 });
 
