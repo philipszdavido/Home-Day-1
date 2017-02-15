@@ -62,3 +62,29 @@ Phone.prototype.powerOff = function() {   //this is a function to power off the 
   this.isPowerOn = false;      //boolean value of this.isPowerOn is set to true to indicate that the phone is powered off.
   }
 
+/*
+	Object - the object here is `Phone`
+	OOP concepts implemented are:
+	Inheritance - 	Since I've defined a `Phone` object, if you say 
+					function Phon(name, model,os) {}
+					Phon.prototype = new Phone();
+					var phon = new Phon();
+					phon.charge();
+					this will run because `Phon` has inherited the `charge` property
+      				from the `Phone` class
+	Encapsulation - The object - `Phone` is structured to be self-contained,
+					everything the object needs is available internally.
+					The internal state of the object is not directly accessible
+					externally except through the abstraction layer
+	Polymorphism -	Different objects can respond to the same name in different ways,
+					with the response specific to the object
+					In the instance of inheritance above
+					Phon.prototype = new Phone();
+					var phon = new Phon();
+					phon.charge();
+					`Phon` inherits a `charge` method from `Phone` but we may want to alter
+					the `charge` functionality for `Phon`. We can overload the `charge` method 
+					with a new Phon charge method
+	Abstraction - 	the user does not need to know how the methods are defined
+					he only needs to call them and use them
+*/
