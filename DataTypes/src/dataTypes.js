@@ -10,7 +10,7 @@ function dataTypes(input) {
       return input;
     }
     //checks if the parameter input is an intanceof a function 
-    if (input instanceof Function) {
+    else if (input instanceof Function) {
       return input(true);
     }
     //checks if the parameter input is a number object
@@ -27,8 +27,6 @@ function dataTypes(input) {
         return "more than 100";
       }
   }
-    
-    
   //checks if the parameter input is a function object
   else if (typeof(input) === "function") {
     return input(75);

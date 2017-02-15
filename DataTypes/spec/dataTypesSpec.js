@@ -81,6 +81,5 @@ describe("Data types tests ", function() {
       expect(dataTypes(callback)).toBe('called callback');
     });
   });
-  
 });
 
